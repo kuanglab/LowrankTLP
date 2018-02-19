@@ -1,6 +1,10 @@
 # LowrankTLP
 
 ## MATLAB implementation
+In the folder MATLAB implementation we provide the MATLAB codes for LowrankTLP algorithm descripted as following:
+LowrankTLP_opt1.m: LowrankTLP with known multi-relations as inputs.
+LowrankTLP_opt2.m: LowrankTLP with pairwise relations as inputs.
+greedy_select_topK_idx: an eignevalue selection algorithm for LowrankTLP.
 
 
 ## Parallel scalable implementation
