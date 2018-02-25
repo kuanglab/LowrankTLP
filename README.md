@@ -1,7 +1,7 @@
 # LowrankTLP
 
 ## MATLAB implementation
-In the folder MATLAB implementation we provide the MATLAB codes for LowrankTLP algorithm:
+We provide MATLAB codes for LowrankTLP algorithm in the following files:
 
 - **LowrankTLP\_opt1.m:** LowrankTLP with known multi-relations as inputs.
 - **LowrankTLP\_opt2.m:** LowrankTLP with pairwise relations as inputs.
