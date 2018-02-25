@@ -3,16 +3,13 @@
 ## MATLAB implementation
 In the folder MATLAB implementation we provide the MATLAB codes for LowrankTLP algorithm:
 
-LowrankTLP_opt1.m: LowrankTLP with known multi-relations as inputs.
-
-LowrankTLP_opt2.m: LowrankTLP with pairwise relations as inputs.
-
-greedy_select_topK_idx.m: an eignevalue selection algorithm for LowrankTLP.
-
+- $$LowrankTLP\_opt1.m:$$ LowrankTLP with known multi-relations as inputs.
+- $$LowrankTLP\_opt2.m:$$ LowrankTLP with pairwise relations as inputs.
+- $$greedy\_select\_topK_idx.m$$: an eignevalue selection algorithm for LowrankTLP.
 
 ## Parallel scalable implementation
 
-We implemented a parallel version of LowrankTLP using SPLATT<sup>[1] (#splatt)</sup> library for parallel shared-memory tensor operations to increase the scalability by a large magnitude. We included SPLATT version 1.1.1 in our package, but it can also be obtained from [here](https://github.com/ShadenSmith/splatt "SPLATT").
+We implemented a parallel version of LowrankTLP using SPLATT<sup>[1](#splatt)</sup> library for parallel shared-memory tensor operations to increase the scalability by a large magnitude. We included SPLATT version 1.1.1 in our package, but it can also be obtained from [here](https://github.com/ShadenSmith/splatt "SPLATT").
 
 In order to install it, run the following command, once inside the SPLATT folder:
 
