@@ -41,5 +41,5 @@ $ ./SPLATT/build/Linux-x86_64/bin/lowrank_bin ./tmp/S.tns 10 ./tmp/q ./tmp/e.txt
 References
 ------
 This work has been published in Li, Zhuliu, Raphael Petegrosso, Shaden Smith, David Sterling, George Karypis, and Rui Kuang. "Scalable label propagation for multi-relational learning on the tensor product of graphs." IEEE Transactions on Knowledge and Data Engineering 34, no. 12 (2021): 5964-5978.
-------
+
 <a name="splatt">1</a>: Smith, Shaden, and George Karypis. "SPLATT: The Surprisingly ParalleL spArse Tensor Toolkit." (2016).
